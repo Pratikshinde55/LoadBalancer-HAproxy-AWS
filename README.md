@@ -10,6 +10,7 @@ Load balancer distribute workload and improve website and application performanc
 HAproxy is one of the product of load balancer, HAproxy is a high-performance, open source load balancer & reverse proxy for HTTP and TCP .
 
 Set-up:
+
 For Loadbalancer setup i launched 4 instances one instance make Load Balancer(Frontend),and remaining
 three make backend for my case named as Backend-1 (ip-172-31-44-4) ,Backend-2 (ip-172-31-33-138),Backend-3(ip-172-31-40-19).
 
