@@ -87,8 +87,10 @@ here also bind the port no. as 8080
 
 
 
-Now loadbalancer configuration is done 
+💫Now loadbalancer configuration is done💫 
+
  note :
+ 
     Load Balancer(Frontend) instance change Inbound rule allow all traffic Anywhere
 
 
