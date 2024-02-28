@@ -4,6 +4,9 @@
 
 Load balancer distribute workload and improve website and application performance.load balancer distribute incomming application traffic across multiple backend(target).load balancer also called as Frontend or reverse proxy.
 
+![Screenshot 2024-02-28 193427](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/8373fe05-3fbf-46f1-9f39-cb58c1a2c5e0)
+
+
 ⭐Haproxy⭐:-
 
 HAproxy is one of the product of load balancer, HAproxy is a high-performance, open source load balancer & reverse proxy for HTTP and TCP .
