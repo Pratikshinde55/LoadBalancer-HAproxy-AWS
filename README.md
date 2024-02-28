@@ -47,7 +47,7 @@ code:-
  3.Start the httpd service:
       
        
-       #systemctl enable httpd --now
+      #systemctl enable httpd --now
 
  ![Screenshot 2024-02-28 190802](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/fef7e5b7-19ae-4197-abe8-1ee2b83841f0)
  
