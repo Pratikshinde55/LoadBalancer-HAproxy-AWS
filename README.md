@@ -31,7 +31,6 @@ three make backend for my case named as Backend-1 (ip-172-31-44-4) ,Backend-2 (i
 
     #cd /var/www/html
 
-
     #vim index.php
 
 code:-
