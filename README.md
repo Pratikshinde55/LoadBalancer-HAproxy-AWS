@@ -40,10 +40,11 @@ code:-
      ?>
      </pre>
 
- 3.Start the httpd service
- 
+ 3.Start the httpd service:
+      
+       
+       #systemctl enable httpd --now
 
-     #systemctl enable httpd --now
 
 ⚡Load Balancer configuration:-
   
