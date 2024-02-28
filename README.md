@@ -15,7 +15,7 @@ three make backend for my case named as Backend-1 (ip-172-31-44-4) ,Backend-2 (i
 
 ![Screenshot 2024-02-28 193350](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/61be7c3a-fdf8-4947-a775-1b777215eeab)
 
-⚡Backend Configuration:
+⚡Backend Configuration(Web server):
 
  on three Backend instances, configure following same set-up on each backend node:
  1.install httpd php software(Apache)
