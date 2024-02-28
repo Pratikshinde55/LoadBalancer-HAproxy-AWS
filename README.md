@@ -70,7 +70,9 @@ for this do follow setup:
  ![Screenshot 2024-02-28 190246](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/5245435a-d02e-45f1-97c5-f3f31ea67999)
 
 
-Note: here we use Round Robin Algorithm that work as client will connect to web server through Load
+Note: 
+
+here we use Round Robin Algorithm that work as client will connect to web server through Load
 balancer , 1st connect to web 1 then web 2 and next web 3 then again go to 1.
 here also bind the port no. as 8080
 
