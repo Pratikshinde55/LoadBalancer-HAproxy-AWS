@@ -91,7 +91,7 @@ here also bind the port no. as 8080
 
  note :
  
-    Load Balancer(Frontend) instance change Inbound rule allow all traffic Anywhere
+ Load Balancer(Frontend) instance change Inbound rule allow all traffic Anywhere
 
 
 Check Load balancer on browser:
