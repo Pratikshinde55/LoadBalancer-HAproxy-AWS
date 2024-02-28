@@ -14,6 +14,7 @@ For Loadbalancer setup i launched 4 instances one instance make Load Balancer(Fr
 three make backend for my case named as Backend-1 (ip-172-31-44-4) ,Backend-2 (ip-172-31-33-138),Backend-3(ip-172-31-40-19).
 
 ![Screenshot 2024-02-28 193350](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/61be7c3a-fdf8-4947-a775-1b777215eeab)
+![Screenshot 2024-02-28 175417](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/f56ea353-28d4-46c4-8ef2-4f9c718aa491)
 
 ⚡Backend Configuration(Web server):
 
@@ -49,7 +50,7 @@ code:-
 1. Install HAproxy load balancer in frontend instance.
 
 
-      # yum install haproxy -y
+       # yum install haproxy -y
 
 2.Registration of Backend to Load Balancer, HAproxy has config file "/etc/haproxy/haproxy.cfg" where add backend node and also add port no. which can helps to client to access application.
 for this do follow setup:
@@ -58,7 +59,8 @@ for this do follow setup:
   
  ADD this code in config file:
 
-    //screnshot
+ ![Screenshot 2024-02-28 190246](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/5245435a-d02e-45f1-97c5-f3f31ea67999)
+
 
 Note: here we use Round Robin Algorithm that work as client will connect to web server through Load
 balancer , 1st connect to web 1 then web 2 and next web 3 then again go to 1.
