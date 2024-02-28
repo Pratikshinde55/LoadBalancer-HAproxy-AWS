@@ -81,9 +81,7 @@ here also bind the port no. as 8080
    
         #systemctl restart haproxy
    
-   
         #systemctl start haproxy
-
 
         #systemctl status haproxy
 
