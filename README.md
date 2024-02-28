@@ -41,6 +41,7 @@ code:-
      </pre>
 
  3.Start the httpd service
+ 
 
      #systemctl enable httpd --now
 
