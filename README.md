@@ -74,7 +74,7 @@ Note:
 
 here we use Round Robin Algorithm that work as client will connect to web server through Load
 balancer , 1st connect to web 1 then web 2 and next web 3 then again go to 1.
-here also bind the port no. as 8080
+here also bind the port no. as 8080 .
 
 3. Start HAproxy service and check status
 
@@ -95,7 +95,7 @@ here also bind the port no. as 8080
 
  note :
  
- Load Balancer(Frontend) instance change Inbound rule allow all traffic Anywhere
+ Load Balancer(Frontend) instance change Inbound rule - allow all traffic Anywhere
 
 
 Check Load balancer on browser:
