@@ -19,6 +19,7 @@ three make backend for my case named as Backend-1 (ip-172-31-44-4) ,Backend-2 (i
 ⚡Backend Configuration(Web server):
 
  on three Backend instances, configure following same set-up on each backend node:
+ 
  1.install httpd php software(Apache)
 
  
