@@ -73,14 +73,13 @@ here also bind the port no. as 8080
 3. Start HAproxy service
 
    
-
-      #systemctl restart haproxy
+        #systemctl restart haproxy
    
    
-      #systemctl start haproxy
+        #systemctl start haproxy
 
 
-      #systemctl status haproxy
+        #systemctl status haproxy
 
 4.check HAproxy config file is valid or not
 
