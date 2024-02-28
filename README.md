@@ -71,6 +71,7 @@ balancer , 1st connect to web 1 then web 2 and next web 3 then again go to 1.
 here also bind the port no. as 8080
 
 3. Start HAproxy service
+
    
 
       #systemctl restart haproxy
