@@ -70,7 +70,7 @@ Note: here we use Round Robin Algorithm that work as client will connect to web 
 balancer , 1st connect to web 1 then web 2 and next web 3 then again go to 1.
 here also bind the port no. as 8080
 
-3. Start HAproxy service
+3. Start HAproxy service and check status
 
    
         #systemctl restart haproxy
