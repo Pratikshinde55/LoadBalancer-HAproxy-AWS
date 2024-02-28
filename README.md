@@ -58,7 +58,8 @@ code:-
 2.Registration of Backend to Load Balancer, HAproxy has config file "/etc/haproxy/haproxy.cfg" where add backend node and also add port no. which can helps to client to access application.
 for this do follow setup:
 
-   #vim /etc/haproxy/haproxy.cfg
+
+     #vim /etc/haproxy/haproxy.cfg
   
  ADD this code in config file:
 
