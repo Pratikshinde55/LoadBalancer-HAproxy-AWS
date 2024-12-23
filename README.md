@@ -24,14 +24,14 @@ three make backend for my case named as Backend-1 (ip-172-31-44-4) ,Backend-2 (i
  1.install httpd php software(Apache)
 
  
-    #yum install httpd php -y
+    yum install httpd php -y
 
  2.DocumentRoot for "Apache server is /var/www/htmt" create here one code folder which for client.
    here put webpage named as index.php
 
-    #cd /var/www/html
+     cd /var/www/html
 
-    #vim index.php
+     vim index.php
 
 code:-
 
