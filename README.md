@@ -47,7 +47,7 @@ code:-
  3.Start the httpd service:
       
        
-      #systemctl enable httpd --now
+      systemctl enable httpd --now
 
  ![Screenshot 2024-02-28 190802](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/fef7e5b7-19ae-4197-abe8-1ee2b83841f0)
  
@@ -57,13 +57,13 @@ code:-
 1. Install HAproxy load balancer in frontend instance.
 
 
-       # yum install haproxy -y
+     yum install haproxy -y
 
 2.Registration of Backend to Load Balancer, HAproxy has config file "/etc/haproxy/haproxy.cfg" where add backend node and also add port no. which can helps to client to access application.
 for this do follow setup:
 
 
-     #vim /etc/haproxy/haproxy.cfg
+     vim /etc/haproxy/haproxy.cfg
   
  ADD this code in config file:
 
@@ -79,15 +79,15 @@ here also bind the port no. as 8080 .
 3. Start HAproxy service and check status
 
    
-        #systemctl restart haproxy
+        systemctl restart haproxy
    
-        #systemctl start haproxy
+        systemctl start haproxy
 
-        #systemctl status haproxy
+        systemctl status haproxy
 
 4.check HAproxy config file is valid or not
 
-    # haproxy -f haproxy.cfg -c
+     haproxy -f haproxy.cfg -c
 
 
 
