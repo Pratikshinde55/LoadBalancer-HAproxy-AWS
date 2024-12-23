@@ -1,11 +1,11 @@
 # Load-Balancer
 ![Screenshot 2024-02-28 193427](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/e31a4593-3fd0-4421-9c51-ec6dc7210730)
 
-🌟Load Balancer:
+## Load Balancer:
 
 Load balancer distribute workload and improve website and application performance.load balancer distribute incomming application traffic across multiple backend(target).load balancer also called as Frontend or reverse proxy.
 
-⭐Haproxy⭐:-
+## Haproxy:-
  
 HAproxy is one of the product of load balancer, HAproxy is a high-performance, open source load balancer & reverse proxy for HTTP and TCP .
 
@@ -17,7 +17,7 @@ three make backend for my case named as Backend-1 (ip-172-31-44-4) ,Backend-2 (i
 ![Screenshot 2024-02-28 193350](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/61be7c3a-fdf8-4947-a775-1b777215eeab)
 ![Screenshot 2024-02-28 175417](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/f56ea353-28d4-46c4-8ef2-4f9c718aa491)
 
-⚡Backend Configuration(Web server):
+## Backend Configuration(Web server):
 
  on three Backend instances, configure following same set-up on each backend node:
  
@@ -52,7 +52,7 @@ code:-
  ![Screenshot 2024-02-28 190802](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/fef7e5b7-19ae-4197-abe8-1ee2b83841f0)
  
 
-⚡Load Balancer configuration:-
+## Load Balancer configuration:-
   
 1. Install HAproxy load balancer in frontend instance.
 
@@ -91,7 +91,7 @@ here also bind the port no. as 8080 .
 
 
 
-💫Now loadbalancer configuration is done💫 
+### Now loadbalancer configuration is done
 
  note :
  
