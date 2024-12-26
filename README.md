@@ -49,31 +49,28 @@ code:-
  ![Screenshot 2024-02-28 190802](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/fef7e5b7-19ae-4197-abe8-1ee2b83841f0)
  
 
-## Load Balancer configuration:-
+## Step:2- [Load Balancer configuration]
   
 1. Install HAproxy load balancer in frontend instance.
 
+       yum install haproxy -y
 
-     yum install haproxy -y
-
-2.Registration of Backend to Load Balancer, HAproxy has config file "/etc/haproxy/haproxy.cfg" where add backend node and also add port no. which can helps to client to access application.
+2. Registration of Backend to Load Balancer, HAproxy config file "/etc/haproxy/haproxy.cfg" where add backend node and also add port number which can helps to client to access the Application.
 for this do follow setup:
 
-
-     vim /etc/haproxy/haproxy.cfg
+       vim /etc/haproxy/haproxy.cfg
   
  ADD this code in config file:
 
  ![Screenshot 2024-02-28 190246](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/5245435a-d02e-45f1-97c5-f3f31ea67999)
 
-
-Note: 
+- Note: 
 
 here we use Round Robin Algorithm that work as client will connect to web server through Load
 balancer , 1st connect to web 1 then web 2 and next web 3 then again go to 1.
 here also bind the port no. as 8080 .
 
-3. Start HAproxy service and check status
+3. Start HAproxy service and check status:
 
    
         systemctl restart haproxy
@@ -82,41 +79,21 @@ here also bind the port no. as 8080 .
 
         systemctl status haproxy
 
-4.check HAproxy config file is valid or not
+4. Check HAproxy config file is valid or not:
 
      haproxy -f haproxy.cfg -c
 
 
-
 ### Now loadbalancer configuration is done
-
- note :
- 
- Load Balancer(Frontend) instance change Inbound rule - allow all traffic Anywhere
-
+Load Balancer(Frontend) instance change Inbound rule - allow all traffic Anywhere
 
 Check Load balancer on browser:
 
-  Public IP of LB + port no. (http://65.0.18.65:8080) 
-    
-  also on local command prompt -->>(curl http://65.0.18.65:8080)
+Public IP of LB + port no. (http://65.0.18.65:8080) 
+
+Also on local command prompt -->>(curl http://65.0.18.65:8080)
 
  ![Screenshot 2024-02-28 190614](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/82e506cb-3d7d-454f-8266-ca222508a16d)
  ![Screenshot 2024-02-28 190525](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/e9f58322-9a2d-4602-a8b1-370db440bf52)
  ![Screenshot 2024-02-28 190456](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/085efef9-ce7d-4bd5-9b8d-34fc6aa4632d)
-
-
-  
-
-
-    
-
-
-
-
-
-
-
-
-
 
