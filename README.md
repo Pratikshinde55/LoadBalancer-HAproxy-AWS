@@ -1,4 +1,4 @@
-# Load-Balancer:
+# Load-Balancer Set-up on the AWS Cloud using HAproxy LB:
 ![Screenshot 2024-02-28 193427](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/e31a4593-3fd0-4421-9c51-ec6dc7210730)
 
 Load balancer distribute workload and improve website and application performance.load balancer distribute incomming application traffic across multiple backend(target).load balancer also called as Frontend or 
