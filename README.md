@@ -1,29 +1,25 @@
-# Load-Balancer
+# Load-Balancer:
 ![Screenshot 2024-02-28 193427](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/e31a4593-3fd0-4421-9c51-ec6dc7210730)
 
-## Load Balancer:
-
-Load balancer distribute workload and improve website and application performance.load balancer distribute incomming application traffic across multiple backend(target).load balancer also called as Frontend or reverse proxy.
+Load balancer distribute workload and improve website and application performance.load balancer distribute incomming application traffic across multiple backend(target).load balancer also called as Frontend or 
+reverse proxy.
 
 ## Haproxy:-
- 
 HAproxy is one of the product of load balancer, HAproxy is a high-performance, open source load balancer & reverse proxy for HTTP and TCP .
 
-Set-up:
+- Set-up:
 
-For Loadbalancer setup i launched 4 instances one instance make Load Balancer(Frontend),and remaining
-three make backend for my case named as Backend-1 (ip-172-31-44-4) ,Backend-2 (ip-172-31-33-138),Backend-3(ip-172-31-40-19).
+For Loadbalancer setup I launched 4 AWS EC2 Instances One Instance make Load Balancer(Frontend),and remaining
+three make Backend, In my case named as Backend-1 (ip-172-31-44-4) ,Backend-2 (ip-172-31-33-138),Backend-3(ip-172-31-40-19).
 
 ![Screenshot 2024-02-28 193350](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/61be7c3a-fdf8-4947-a775-1b777215eeab)
 ![Screenshot 2024-02-28 175417](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/f56ea353-28d4-46c4-8ef2-4f9c718aa491)
 
-## Backend Configuration(Web server):
-
- on three Backend instances, configure following same set-up on each backend node:
+## Step:1- [Backend Configuration(Web server)]
+On three Backend instances, configure following same set-up as it is on each backend nodes:
  
- 1.install httpd php software(Apache)
+ 1.Install httpd php software(Apache)
 
- 
     yum install httpd php -y
 
  2.DocumentRoot for "Apache server is /var/www/htmt" create here one code folder which for client.
