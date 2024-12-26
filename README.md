@@ -84,7 +84,9 @@ here also bind the port no. as 8080 .
      haproxy -f haproxy.cfg -c
 
 
-### Now loadbalancer configuration is done
+## Step:3- [Access LoadBalancer from Browser]
+Now loadbalancer configuration is done.
+
 Load Balancer(Frontend) instance change Inbound rule - allow all traffic Anywhere
 
 Check Load balancer on browser:
@@ -93,7 +95,7 @@ Public IP of LB + port no. (http://65.0.18.65:8080)
 
 Also on local command prompt -->>(curl http://65.0.18.65:8080)
 
- ![Screenshot 2024-02-28 190614](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/82e506cb-3d7d-454f-8266-ca222508a16d)
- ![Screenshot 2024-02-28 190525](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/e9f58322-9a2d-4602-a8b1-370db440bf52)
- ![Screenshot 2024-02-28 190456](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/085efef9-ce7d-4bd5-9b8d-34fc6aa4632d)
+![Screenshot 2024-02-28 190614](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/82e506cb-3d7d-454f-8266-ca222508a16d)
+![Screenshot 2024-02-28 190525](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/e9f58322-9a2d-4602-a8b1-370db440bf52)
+![Screenshot 2024-02-28 190456](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/085efef9-ce7d-4bd5-9b8d-34fc6aa4632d)
 
