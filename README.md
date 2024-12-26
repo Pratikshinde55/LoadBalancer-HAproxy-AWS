@@ -21,7 +21,7 @@ On three Backend instances, configure following same set-up as it is on each bac
  
 1. Install httpd php software(Apache):
 
-      yum install httpd php -y
+         yum install httpd php -y
 
 2. DocumentRoot for "Apache server is /var/www/htmt" Create here one code folder which is access for client. here put Webpage named as index.php:
 
