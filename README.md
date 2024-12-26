@@ -21,11 +21,11 @@ On three Backend instances, configure following same set-up as it is on each bac
  
 1. Install httpd php software(Apache)
 
-    yum install httpd php -y
+     yum install httpd php -y
 
 2. DocumentRoot for "Apache server is /var/www/htmt" Create here one code folder which is access for client. here put Webpage named as index.php:
 
-    cd /var/www/html
+     cd /var/www/html
 
 Create index.html Webpage:
 
@@ -44,7 +44,7 @@ code:-
 
 3. Start the httpd service:
       
-    systemctl enable httpd --now
+     systemctl enable httpd --now
 
  ![Screenshot 2024-02-28 190802](https://github.com/Pratikshinde55/Load-Balancer/assets/145910708/fef7e5b7-19ae-4197-abe8-1ee2b83841f0)
  
